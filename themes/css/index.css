@@ -2772,6 +2772,12 @@ for tabs and large phones
         position: relative;
         overflow: hidden; */
 
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        position: relative;
+        overflow: hidden;
+
         flex: 20%;
     max-width: 50%;
     }
