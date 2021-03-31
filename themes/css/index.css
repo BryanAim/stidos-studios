@@ -69,10 +69,14 @@ html {
     margin: 0 auto;
     width: 50%;
 }
- .bold {
+#loader img:hover {
+    opacity: 1;
+    transform: scale(1.2,1.2);
+}
+ /* .bold {
      font-weight: bold;
      font-size: 105px;
- }
+ } */
 
 body {
     user-select: none;
