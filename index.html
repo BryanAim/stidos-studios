@@ -100,7 +100,20 @@
             </div>
             <!--header image-->
             <div class="header-image">
-            <img src="images/JEAN-min.jpg" alt="logo">
+            <!-- <img src="images/JEAN-min.jpg" alt="logo"> -->
+            <picture>
+                <source 
+                   media="(max-width: 9000px) and (min-width: 1441px)"
+                   srcset="images/JEAN-min.jpg">
+                <source 
+                media="(max-width: 1025px) and (min-width: 551px)" 
+                srcset="images/works/17.jpg">
+                <source 
+                   media="(max-width: 550px)"
+                   srcset="images/works/3.jpg"">
+                <img src="images/JEAN-min.jpg" 
+                alt="a cute kitten">
+             </picture>
             </div>
             <!--header image end-->
         </div>
