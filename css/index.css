@@ -1609,6 +1609,9 @@ For devices with smaller width like mobile phone
         height: auto;
         width: 0%;
     }
+    .header-image img{
+        min-width: 0;
+    }
 
     .social-media-links {
         width: 100%;
