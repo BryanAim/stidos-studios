@@ -73,10 +73,10 @@ html {
     opacity: 1;
     transform: scale(1.2,1.2);
 }
- /* .bold {
+ .bold {
      font-weight: bold;
      font-size: 105px;
- } */
+ }
 
 body {
     user-select: none;
