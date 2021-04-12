@@ -2146,6 +2146,10 @@ for tabs and large phones
         height: auto;
         width: 0%;
     }
+    .header-image img{
+        object-fit: cover;
+        min-width: 0;
+    }
 
     .social-media-links {
         width: 100%;
